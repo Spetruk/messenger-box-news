@@ -3,7 +3,9 @@
   background-color: red;
 
   /* Create the gradient. */
-  background-image: linear-gradient(45deg, #f3ec78, #af4261);
+  /* background-image: linear-gradient(45deg, #f3ec78, #af4261); */
+
+background: linear-gradient(to right, #9144B3 0%, #BF7ECF 100%);
 
   /* Set the background size and repeat properties. */
   background-size: 100%;
@@ -18,17 +20,22 @@
 }
 
 .header-image {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80%;
-  padding: 50px;
+
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 15px;
 }
 
+.preview {
+  width: 100%;
+  height:100vh;
+}
 
 /* Style the rest of the page. */
 body {
-  background-color: #181123;
+  background-color: #FFFFFF;
+  margin-left: var(--margin-horizontal);
+  margin-right: var(--margin-horizontal);
 }
 
 header {
@@ -36,11 +43,26 @@ header {
   margin-top: calc(50vh - 3em);
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   font-family: "Archivo Black", sans-serif;
   font-weight: bold;
   font-size: 6em;
-  text-align: center;
+  text-align: letf;
   margin-bottom: 0;
   margin-bottom: -0.25em;
+}
+
+p {
+  font-family: "Archivo Black", sans-serif;
+  font-size: 2.5em;
+}
+
+
+:root {
+  --margin-horizontal: 25px;
 }
