@@ -51,7 +51,7 @@ div {
 }
 
 h1 {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font), sans-serif;
   font-weight: bold;
   font-size: 6em;
   text-align: letf;
@@ -59,13 +59,8 @@ h1 {
   margin-bottom: -0.25em;
 }
 
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 2em;
-}
-
-ul {
-  font-family: "Roboto", sans-serif;
+p, li {
+  font-family: var(--main-font), sans-serif;
   font-size: 2em;
 }
 
@@ -77,4 +72,5 @@ ul {
 
 :root {
   --margin-horizontal: 25px;
+  --main-font: "Roboto";
 }
