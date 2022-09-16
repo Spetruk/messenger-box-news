@@ -64,13 +64,7 @@ p, li {
   font-size: 2em;
 }
 
-@font-face {
-    font-family: 'Roboto';
-    src: url('./../fonts/Roboto/Roboto-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
-}
-
-
 :root {
   --margin-horizontal: 25px;
-  --main-font: "Roboto";
+  --main-font: "Archivo Black";
 }
