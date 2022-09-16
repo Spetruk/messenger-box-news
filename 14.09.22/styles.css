@@ -51,7 +51,7 @@ div {
 }
 
 h1 {
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 6em;
   text-align: letf;
@@ -60,8 +60,18 @@ h1 {
 }
 
 p {
-  font-family: "Archivo Black", sans-serif;
-  font-size: 2.5em;
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+
+ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto/Roboto-Regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
 
 
