@@ -34,7 +34,7 @@ background: linear-gradient(to right, #9144B3 0%, #BF7ECF 100%);
 
 /* Style the rest of the page. */
 body {
-  background-color: #FFFFFF;
+  background-color: rgba(0,0,0,0.5);
   margin-left: var(--margin-horizontal);
   margin-right: var(--margin-horizontal);
 }
